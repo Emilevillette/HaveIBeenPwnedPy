@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "haveibeenpwnedpy"
+version = "0.1.0"
+description = ""
+authors = ["Emile Villette <emile.villette@student.uclouvain.be>"]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
